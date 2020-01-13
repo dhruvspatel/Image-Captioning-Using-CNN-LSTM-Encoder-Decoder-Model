@@ -1,4 +1,4 @@
-# Image Captioning Using CNN RNN Encoder Decoder Model
+# Image Captioning Using CNN-LSTM Encoder-Decoder Model
 
 <img src='images/header.png'>
 
@@ -12,13 +12,13 @@ In this project, I intend to generate captions for images in the COCO 2014 datas
 
 The Microsoft Common Objects in COntext (MS COCO) dataset is a large-scale dataset for scene understanding. The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms. Our task is image captioning hence we will only access the images and their respective captioins. Each image has 5 captions associated with it.
 
-<img src='images/coco-examples.png'>
+<img src='images/coco-examples.jpg' width='80%' height='80%'>
 
 The COCO dataset is very rich in context and thus it is accessed by it's own API: `pycocotools`
 
 Below, I have accessed and displayed an image along with the 5 captions:
 
-<img src='images/example_image.png'>
+<img src='images/example_image.png' width='60%' height='60%'>
 
 #### Preparation Of Tokens:
 
@@ -65,13 +65,13 @@ Now I have loaded the test images and passed them through the trained model. The
 
 Correct Predictions:
 
-<img src='images/train.png'>
+<img src='images/train.png' width='60%' height='60%'>
 
-<img src='images/toilet.png'>
+<img src='images/toilet.png' width='60%' height='60%'>
 
 Incorrect Predictions:
 
-<img src='images/surf.png'>
+<img src='images/surf.png' width='60%' height='60%'>
 
 ### Conclusion:
 
